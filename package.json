@@ -1,0 +1,18 @@
+{
+  "name": "@nova/rdk.preset__tslint",
+  "version": "0.0.1",
+  "description": "React Developer Kit Preset TsLint",
+  "main": "index.js",
+  "author": "Novartis",
+  "license": "UNLICENSED",
+  "private": true,
+  "keywords": [
+    "tslint",
+    "sonar",
+    "preset"
+  ],
+  "dependencies": {
+    "tslint-react": "^3.5.1",
+    "tslint-sonarts": "^1.6.0"
+  }
+}
