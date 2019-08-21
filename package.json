@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Unkown modified by Frank Simon Lechner",
   "license": "UNLICENSED",
-  "private": true,
+  "private": false,
   "keywords": [
     "tslint",
     "sonar",
