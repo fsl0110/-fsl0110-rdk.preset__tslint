@@ -12,7 +12,6 @@
     "preset"
   ],
   "dependencies": {
-    "tslint": "^5.18.0",
     "tslint-react": "^4.0.0",
     "tslint-sonarts": "^1.9.0"
   }
