@@ -5,8 +5,9 @@ const OFF = false;
 
 module.exports = {
   rules: {
-    // TypeScript Specific
+    // TypeScript-specific
     "adjacent-overload-signatures": ON,
+    "ban-ts-ignore": ON,
     "ban-types": [
       ON,
       [
@@ -41,7 +42,7 @@ module.exports = {
     "no-internal-module": ON,
     "no-magic-numbers": OFF,
     "no-namespace": ON,
-    "no-non-null-assertion": OFF,
+    "no-non-null-assertion": ON,
     "no-reference": ON,
     "no-this-assignment": ON,
     "no-var-requires": ON,
@@ -122,8 +123,8 @@ module.exports = {
     "no-unsafe-any": OFF,
     "no-unsafe-finally": ON,
     "no-unused-expression": ON,
-    "no-unused-variable": OFF, // deprecated
-    "no-use-before-declare": OFF, // deprecated
+    "no-unused-variable": OFF,
+    "no-use-before-declare": OFF,
     "no-var-keyword": ON,
     "no-void-expression": ON,
     "prefer-conditional-expression": ON,

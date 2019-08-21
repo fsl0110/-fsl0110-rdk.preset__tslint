@@ -1,9 +1,9 @@
 {
-  "name": "@nova/rdk.preset__tslint",
+  "name": "@fsl0110/rdk.preset__tslint",
   "version": "0.0.1",
-  "description": "React Developer Kit Preset TsLint",
+  "description": "React Developer Kit Shareable Preset TsLint",
   "main": "index.js",
-  "author": "Novartis",
+  "author": "Unkown modified by Frank Simon Lechner",
   "license": "UNLICENSED",
   "private": true,
   "keywords": [
@@ -12,7 +12,8 @@
     "preset"
   ],
   "dependencies": {
-    "tslint-react": "^3.5.1",
-    "tslint-sonarts": "^1.6.0"
+    "tslint": "^5.18.0",
+    "tslint-react": "^4.0.0",
+    "tslint-sonarts": "^1.9.0"
   }
 }
